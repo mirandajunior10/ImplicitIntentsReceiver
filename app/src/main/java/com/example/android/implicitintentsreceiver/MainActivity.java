@@ -19,7 +19,6 @@ public class MainActivity extends Activity {
             String uri_string = getString(R.string.uri_label) + uri.toString();
             TextView textView = findViewById(R.id.text_uri_message);
             textView.setText(uri_string);
-            textView.setText(null);
         }
     }
 }
